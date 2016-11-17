@@ -1,0 +1,171 @@
+/* navigation */
+
+.nav li {
+  display: inline;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+  background-color: rgba(255, 255, 255, .15);
+  transition: 0.3s all linear;
+  height: 100%;
+}
+
+#site-title {
+  font-family: 'Abril Fatface', cursive;
+  font-size:x-large;
+  color:#C5DBE5;
+  text-shadow: black 0.02em 0.02em 0.02em;
+}
+
+.navbar {
+  border-style: none;
+}
+
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color:#FFFFFF;
+
+}
+
+.text-vcenter h1 {
+  font-size: 4.5em;
+  margin: 0;
+  padding: 0;
+  text-shadow: black 0.02em 0.02em 0.02em;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.text-vcenter h3 {
+  text-shadow: black 0.03em 0.03em 0.03em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+/* additional sections */
+#home {
+  background: url(../images/waterlily_1920.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about {
+  background-color: rgba(255, 224, 222, .4);
+}
+
+#about h2, #tech h2, #tech h3{
+  font-family: 'Abril Fatface', cursive;
+}
+
+.lead {
+  font-size: medium;
+}
+
+.img-circle {
+  position:relative;
+}
+
+#tech {
+  background-color: #393354;
+  color: #ffffff;
+}
+
+
+#projects {
+  background: url(../images/moth_1920.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 580px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#projects .panel {
+  opacity: 0.85;
+  margin-top: 50px;
+}
+
+.panel-title {
+  font-size:x-large;
+  font-family: 'Abril Fatface', cursive;
+}
+
+#pokeseedo {
+  opacity: 1.0;
+}
+
+#contact {
+  background: url(../images/valley_1920.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 250px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#contact-panel {
+  background-color:rgba(0, 0, 0, .5);
+  font-size: medium;
+  margin-top: 0;
+}
+
+.social {
+  margin:20px 0 20px 0;
+}
+
+.social a{
+  text-decoration: none;
+  color:#C5DBE5;
+}
+
+.social a:hover{
+  text-decoration: none;
+}
+
+.social h4{
+  text-align:center;
+  text-decoration: none;
+}
+
+.social img {
+  display: block;
+  width:40px;
+  margin:auto;
+}
+
+footer {
+  padding: 10px 0;
+  background-color: #C5DBE5;
+}
+
+
