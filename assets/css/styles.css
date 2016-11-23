@@ -19,6 +19,7 @@
 
 .navbar {
   border-style: none;
+  border: none;
 }
 
 /* general styles */
@@ -38,13 +39,19 @@ html, body {
   width: 100%;
 }
 
+/* explore button */
+#explore {
+  background-color: rgba(57, 51, 84, .5);
+  border: none;
+  color: white;
+}
+
 /* vertical-centered text */
 .text-vcenter {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
   color:#FFFFFF;
-
 }
 
 .text-vcenter h1 {
