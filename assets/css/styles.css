@@ -19,7 +19,22 @@
 
 .navbar {
   border-style: none;
+  border: 0;
+}
+
+#mobile-nav {
+  /* style as needed */
+  border-bottom: none;
+}
+
+.navbar-header button {
   border: none;
+  background-color: rgba(57, 51, 84, .5);
+}
+
+.navbar-header button:hover {
+  border: none;
+  background-color: rgba(57, 51, 84, .5);
 }
 
 /* general styles */
@@ -145,6 +160,10 @@ html, body {
   background-size: cover;
 }
 
+#contact-message {
+  margin-top: -15px;
+}
+
 #contact-panel {
   background-color:rgba(0, 0, 0, .5);
   font-size: medium;
@@ -155,7 +174,7 @@ html, body {
   margin:20px 0 20px 0;
 }
 
-.social a{
+.social a {
   text-decoration: none;
   color:#C5DBE5;
 }
@@ -179,5 +198,3 @@ footer {
   padding: 10px 0;
   background-color: #C5DBE5;
 }
-
-
